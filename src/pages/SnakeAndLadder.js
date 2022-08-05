@@ -23,10 +23,10 @@ const SnakeAndLadder = () => {
         gap: "1rem",
         alignItems: "center",
         justifyContent: "space-between",
-        height:'calc(100vh - 64px)',
+        height: "calc(100vh - 64px)",
       }}
     >
-      <Card style={{marginTop: '0.7rem'}}>
+      <Card style={{ marginTop: "0.7rem" }}>
         <CardActionArea>
           <CardMedia component="img" image={banner} alt="snakes and ladder" />
         </CardActionArea>
@@ -35,6 +35,7 @@ const SnakeAndLadder = () => {
         gutterBottom
         variant="h4"
         component="div"
+        style={{ fontSize: "1.6rem", letterSpacing: "2.5px" }}
         className="mainText"
       >
         The Wait is Finally Over
@@ -47,14 +48,13 @@ const SnakeAndLadder = () => {
       </span>
       <Button
         variant="contained"
-        size="large"
-        fontSize="large"
         style={{
-          padding: "1rem 3rem",
+          padding: "0.5rem 3rem",
           fontSize: "1.5rem",
-          fontWeight: "600",
+          fontWeight: "500",
+          letterSpacing: "1.5px",
           background: "black",
-          marginBottom:'1rem'
+          marginBottom: "3rem",
         }}
       >
         Coming Soon ...

@@ -1,7 +1,7 @@
 import React from "react";
 import { Box, Typography } from "@mui/material";
 
-const About = ({setShowPolicy}) => {
+const About = ({ setShowPolicy }) => {
   return (
     <Box
       sx={{
@@ -21,23 +21,31 @@ const About = ({setShowPolicy}) => {
         gutterBottom
         variant="p"
         component="div"
-        style={{ paddingTop: "2rem", fontSize: "1.2rem" }}
+        style={{ paddingTop: "2rem", fontSize: "1.1rem" }}
       >
         Skill Based Games is a company Registered in Gondia Maharashtra. With
         his team, our founder Mr. Pratik Arora has been keenly involved in
         developing the favourite Indian games in 3D. We bring you back your
-        childhood games upgraded with technology. Enjoy niostaligia with our 3D
+        childhood games upgraded with technology. Enjoy nostalgia with our 3D
         Games…
       </Typography>
 
-      <Typography gutterBottom variant="h5" component="div" className="">
-        Call us At: +91-8485046957
+      <Typography
+        gutterBottom
+        variant="h5"
+        component="p"
+        style={{ fontSize: "1.2rem", letterSpacing: "1.5px" }}
+      >
+        <b>Contact:</b>
+        <br /> +91 84850 46957
         <br />
         <br />
-        Email: arorapratik963@gmail.com
+        <b>Email:</b>
+        <br /> arorapratik963@gmail.com
         <br />
         <br />
-        Address: SBG Office, Near Star Fine Arts, Railtoli, Gondia - 441601
+        <b>Address:</b>
+        <br /> SBG Office, Near Star Fine Arts, Railtoli, Gondia - 441601
       </Typography>
 
       <Box
@@ -47,13 +55,17 @@ const About = ({setShowPolicy}) => {
           textAlign: "center",
           justifyContent: "space-between",
           width: "100%",
-          paddingBottom: "1.5rem",
+          paddingBottom: "3rem",
         }}
-        onClick={()=> setShowPolicy(true)}
+        onClick={() => setShowPolicy(true)}
       >
-        <Typography sx={{ minWidth: 100 }}>Privacy Policy</Typography>
-        <Typography sx={{ minWidth: 100 }}>T&C</Typography>
-        <Typography sx={{ minWidth: 100 }}>Refund Policy</Typography>
+        <Typography sx={{ minWidth: 100, fontSize: "1.1rem" }}>
+          Privacy Policy
+        </Typography>
+        <Typography sx={{ minWidth: 100, fontSize: "1.1rem" }}>T&C</Typography>
+        <Typography sx={{ minWidth: 100, fontSize: "1.1rem" }}>
+          Refund Policy
+        </Typography>
       </Box>
     </Box>
   );

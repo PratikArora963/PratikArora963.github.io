@@ -14,7 +14,12 @@ import {
   Typography,
 } from "@mui/material";
 
-const pages = ["Contact", "Terms and Conditions", "Privacy Policy", "Payment Gateway"];
+const pages = [
+  "Contact",
+  "Terms and Conditions",
+  "Privacy Policy",
+  "Payment Gateway",
+];
 
 const ResponsiveAppBar = () => {
   const [anchorElNav, setAnchorElNav] = React.useState(null);
@@ -27,7 +32,7 @@ const ResponsiveAppBar = () => {
   };
 
   return (
-    <AppBar position="static" style={{background: '#bd0000'}}>
+    <AppBar position="static" style={{ background: "#bd0000" }}>
       <Container maxWidth="xl">
         <Toolbar
           disableGutters
@@ -38,7 +43,7 @@ const ResponsiveAppBar = () => {
           }}
         >
           <BubbleChartIcon
-            sx={{ mr: 1 }}
+            sx={{ mr: 1, display: { xs: "none", md: "flex" } }}
           />
           <Typography
             variant="h6"
@@ -74,13 +79,13 @@ const ResponsiveAppBar = () => {
               id="menu-appbar"
               anchorEl={anchorElNav}
               anchorOrigin={{
-                vertical: 'bottom',
-                horizontal: 'right',
+                vertical: "bottom",
+                horizontal: "right",
               }}
               keepMounted
               transformOrigin={{
-                vertical: 'top',
-                horizontal: 'right',
+                vertical: "top",
+                horizontal: "right",
               }}
               open={Boolean(anchorElNav)}
               onClose={handleCloseNavMenu}
