@@ -55,7 +55,7 @@ const About = ({ setShowPolicy }) => {
           textAlign: "center",
           justifyContent: "space-between",
           width: "100%",
-          paddingBottom: "3rem",
+          paddingBottom: "5rem",
         }}
         onClick={() => setShowPolicy(true)}
       >
