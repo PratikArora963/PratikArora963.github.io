@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/static/css/main.7109d13c.css",
-    "main.js": "/static/js/main.b786215e.js",
+    "main.css": "/static/css/main.e1923c51.css",
+    "main.js": "/static/js/main.506c08d7.js",
     "static/media/snakeandladder.png": "/static/media/snakeandladder.047e33a640e5c34a98b7.png",
     "static/media/ludo.png": "/static/media/ludo.c92407d8f61281fa95ed.png",
     "static/media/appstore.png": "/static/media/appstore.f62047fdf8fba633c584.png",
     "static/media/playstore.svg": "/static/media/playstore.f4734b1f54ed83fe5cd18eaaf1295658.svg",
     "index.html": "/index.html",
-    "main.7109d13c.css.map": "/static/css/main.7109d13c.css.map",
-    "main.b786215e.js.map": "/static/js/main.b786215e.js.map"
+    "main.e1923c51.css.map": "/static/css/main.e1923c51.css.map",
+    "main.506c08d7.js.map": "/static/js/main.506c08d7.js.map"
   },
   "entrypoints": [
-    "static/css/main.7109d13c.css",
-    "static/js/main.b786215e.js"
+    "static/css/main.e1923c51.css",
+    "static/js/main.506c08d7.js"
   ]
 }
